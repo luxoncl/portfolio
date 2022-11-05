@@ -1,0 +1,21 @@
+.skill__content{
+    color:aqua;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+}
+.skill__title{
+    text-align: center;
+    font-family: cursive;
+
+}
+.skill__progress{
+    justify-content: center;
+    width: 50vh;
+    margin-left: 400px;
+}
+.skill__progress  h1 {
+    font-family: cursive;
+    color:WHITE ;
+    font-size: 25px;
+}

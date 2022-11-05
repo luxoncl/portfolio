@@ -1,0 +1,35 @@
+
+.Contact__content h1{
+    color: aliceblue;
+    font-family: cursive;
+    margin-right: 30px;
+}
+
+.Contact__content{
+ text-align: center;
+    justify-content: space-evenly;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+.git{
+    border: 3px;
+    margin-right: 50px;
+}
+.insta{
+    border: 3px;
+    margin-right: 50px;
+}
+.telegram{
+    border: 3px;
+    margin-right: 50px;
+}
+.linkedin{
+    border: 3px;
+    margin-right: 50px;
+}
+.contact > a :hover{
+    cursor:grab;
+    transform: scale(1.09);
+    color: aqua;
+
+}

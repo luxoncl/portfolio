@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+
+.header{
+    top:0;
+    display: flex;
+    background-color: aqua;
+    color:black;
+    justify-content: space-evenly;
+    position:sticky;
+    z-index: 2000;
+
+}
+
+.left__header {
+    flex:0.4;
+}
+.left__header > h1 {
+    font-family: cursive;
+    letter-spacing: 1px;
+    padding:20px 0;
+}
+.left__header > h1 > span{
+    color: rgb(255, 119, 0);
+}
+.right__header{
+    display: flex;
+    flex:0.6;
+    justify-content: space-evenly;
+}
+.right__header >a > h4{
+    padding: 30px 0;
+}
+.right__header > a > h4:hover{
+    transform: scale(1.09);
+    background-color:black;
+    color: aliceblue;
+    cursor: grab;
+    padding: 5px 20px;
+    border-radius: 2px;
+    letter-spacing: 1px;
+    font-family: cursive;
+}
